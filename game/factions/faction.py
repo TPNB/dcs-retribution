@@ -942,8 +942,8 @@ class Faction:
             self.remove_preset("Sky Sabre Battery (Mobile)")
             self.remove_preset("Stormer HVM Battery")
         if not mod_settings.ukrainemilitaryassetspack:
-            self.remove_aircraft("Su-24MU")
-            self.remove_aircraft("MiG-29MU2")
+            self.remove_aircraft("CH_Su-24MU")
+            self.remove_aircraft("CH_MiG-29MU2")
             self.remove_aircraft("CH_Su-27P1M")
             self.remove_vehicle("T84_OplotM")
             self.remove_vehicle("BTR-4")
